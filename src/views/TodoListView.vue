@@ -1,9 +1,6 @@
 <script setup>
-const API_URL = 'https://jsonplaceholder.typicode.com/todos';
+import { API_URL } from '@/config'
 import { ref, onMounted } from 'vue'
-
-
-
 
 const todos = ref([])
 const isLoading = ref(true)
